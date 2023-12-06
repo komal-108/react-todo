@@ -40,7 +40,7 @@ export default function ToDoList() {
   return (
     <div className="todo_box">
       <div className="todo_container">
-        <h1> To Do List React</h1>
+        <h1> To Do List</h1>
         <input placeholder="Add Task" className="input_text" value={name} onChange={(e) => setName(e.target.value)} />
         <button className="add_button" onClick={handleAdd}> {editId != null ? "Edit" : "Add"}</button>
         <div className="todo_list">

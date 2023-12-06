@@ -47,7 +47,7 @@
 }
 .todo_box ul li{
   list-style: none;
-  padding: 12px;
+  /* padding: 12px; */
 }
 .input_text{
   padding:10px 26px;
@@ -73,7 +73,7 @@
   outline: none;
 }
 .add_button,.button{
-  margin-left: 20px;
+  margin: 0px 10px 0px 20px;
   padding: 10px 30px;
   cursor: pointer;
   border-radius: 5px;
